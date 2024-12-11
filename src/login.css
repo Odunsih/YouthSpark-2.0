@@ -1,12 +1,8 @@
-
-
-
 .navbar-brand span {
     color: rgb(0, 86, 245);
 }
 
-
-.Org-sign-up-container {
+.Login-container {
     width: 50%;
     margin: 0 auto;
     align-items: center;
