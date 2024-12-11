@@ -1,0 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+}
+
+.container-fluid {
+    width: 80%;
+}
+
+.navbar-brand span {
+    color: rgb(0, 86, 245);
+}
