@@ -18,12 +18,12 @@
         <h2>Sign-up</h2>
         <hr>
         <form action="">
-            <select class="form-select form-select-lg mb-3" aria-label="Large select example" required>
+            <select id="select" class="form-select form-select-lg mb-3" aria-label="Large select example" required>
                 <option selected>Select user type</option>
-                <option value="Fellow">Fellow</option>
-                <option value="Fellow">Organization</option>
+                <option id="option1" value="Fellow">Fellow</option>
+                <option id="option2" value="Organization">Organization</option>
             </select>
-              <button type="button" class="btn btn-primary btn-lg">Sign-up</button>
+              <button type="button" onclick="direct()" class="btn btn-primary btn-lg">Sign-up</button>
         </form>
         
           <hr>
@@ -31,4 +31,5 @@
     </div>
    
 </body>
+<script src="sign-up.js"></script>
 </html>
